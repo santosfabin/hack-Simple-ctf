@@ -36,7 +36,7 @@ fta 10.10.6.14
 ## What's the CVE you're using against the application?
 
 ```bash
-gobuster -u http://10.10.6.14/ -w /home/fabis/important/ArquivosH/wordlist/dirbuster/directory-list-2.3-medium.txt -x php,html,txt
+gobuster -u http://10.10.6.14/ -w wordlist/dirbuster/directory-list-2.3-medium.txt -x php,html,txt
 ```
 
 - [`http://10.10.161.147/simple/`](http://10.10.161.147/simple/)
